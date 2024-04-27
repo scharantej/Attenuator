@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Attenuator Controller</title>
+</head>
+<body>
+<h1>Attenuator Controller</h1>
+<form action="/set_attenuation" method="post">
+<label for="channel_1">Channel 1 Attenuation:</label>
+<input type="range" id="channel_1" name="attenuation" min="0" max="95" value="0">
+<input type="text" id="channel_1_value" value="0" readonly> dBm<br>
+
+<label for="channel_2">Channel 2 Attenuation:</label>
+<input type="range" id="channel_2" name="attenuation" min="0" max="95" value="0">
+<input type="text" id="channel_2_value" value="0" readonly> dBm<br>
+
+<label for="channel_3">Channel 3 Attenuation:</label>
+<input type="range" id="channel_3" name="attenuation" min="0" max="95" value="0">
+<input type="text" id="channel_3_value" value="0" readonly> dBm<br>
+
+<label for="channel_4">Channel 4 Attenuation:</label>
+<input type="range" id="channel_4" name="attenuation" min="0" max="95" value="0">
+<input type="text" id="channel_4_value" value="0" readonly> dBm<br>
+
+<input type="submit" value="Set Attenuation">
+</form>
+</body>
+</html>
+
